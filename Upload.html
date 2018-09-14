@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload</title>
+    </head>
+    <body>
+        <p>Upload your files below:</p>
+        <form action="Upload.php" method="POST" enctype="multipart/form-data" >
+            <input type="file" name="fileToUpload" id="fileToUpload"/>
+            <input type="submit" name="submit" value="Upload"/>
+        </form>
+        <br>
+        <form action="userPage.php" method="POST">
+            <input type="submit" name="returnToUser" value="Return To User Page"/>
+        </form>
+    </body>
+</html>
